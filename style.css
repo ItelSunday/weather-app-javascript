@@ -1,3 +1,44 @@
 body {
-  background-image: url('img/kl.jpg');
+  background: url('img/malaysia.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0 auto;
+  color: #fff;
 }
+
+.hero {
+  position: absolute;
+  min-height: 100vh;
+  min-width: 100vw;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(31, 30, 75, 0.5);
+}
+
+/* navbar */
+.navbar {
+  background-color: rgba(69, 106, 171, 0.5);
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 25px;
+}
+/* i sun not showing */
+
+/* weather section */
+.weather {
+  border: 1px solid #ffffff;
+  margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#icon-desc {
+  font-size: 1rem;
+  padding-top: rem;
+}
+
+#desc {
+  font-size: 2rem;
+}
+/* thunder icon not showing up */

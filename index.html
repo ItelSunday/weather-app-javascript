@@ -1,7 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Weaher App</title>
+    <title>Weather App</title>
     <!--bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
@@ -9,12 +10,46 @@
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css">
     <!--font awesome-->
     <link rel="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+    <!-- transparent overlay-->
     <div class="hero"></div>
+    <!-- navbar -->
+    <!-- Just an image -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-sun"></i>
+            <strong>Local</strong> Weather
+        </a>
+        <span id="date" class="lead">12:00PM | Apr 16, 2018</span>
+    </nav>
+    <!-- weather section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-8 weather mx-auto">
+                <div class="weather-head">
+                    <h1 id="location" class="text-center display-5">Kuala Lumpur, Malaysia</h1>
+
+                    <div class="row">
+                        <div id="description col06">
+                            <i id="icon-desc" class="wi wi-thunderstorm-200"></i>
+                            <p id="desc">thunderstorm</p>
+                        </div>
+                        <div id="temperature" class="col-6">
+                            75
+                            <i id="icon-thermometer" class="wi wi-thermometer">
+
+                            </i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
