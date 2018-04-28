@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <!--weather icons-->
-    <link rel="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css">
+    <link rel="stylesheet" href="/css/weather-icons.min.css">
     <!--font awesome-->
-    <link rel="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <link rel="stylesheet" href="style.css">
-
+    <!--https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css-->
 </head>
 
 <body>
@@ -34,17 +34,29 @@
                     <h1 id="location" class="text-center display-5">Kuala Lumpur, Malaysia</h1>
 
                     <div class="row">
-                        <div id="description col06">
-                            <i id="icon-desc" class="wi wi-thunderstorm-200"></i>
+                        <div id="description col-6 text-center">
+                            <i id="icon-desc" class="wi wi-thunderstorm"></i>
                             <p id="desc">thunderstorm</p>
                         </div>
-                        <div id="temperature" class="col-6">
+                        <div id="temperature" class="col-6 text-center">
                             75
                             <i id="icon-thermometer" class="wi wi-thermometer">
-
                             </i>
                         </div>
-
+                    </div>
+                </div>
+                <!-- weather body section -->
+                <div class="weather-body">
+                    <div class="row">
+                        <div class="humidity col-4 text-center">
+                            <span>humidity</span>
+                        </div>
+                        <div class="wind col-4 text-center">
+                            <span>Wind Speed</span>
+                        </div>
+                        <div class="wind-degree col-4 text-center">
+                            <span>Wind</span>
+                        </div>
                     </div>
                 </div>
             </div>

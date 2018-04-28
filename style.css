@@ -31,14 +31,30 @@ body {
   border: 1px solid #ffffff;
   margin-top: 10rem;
   background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
 }
 
 #icon-desc {
-  font-size: 1rem;
-  padding-top: rem;
+  font-size: 5rem;
+  padding-top: 2rem;
 }
 
 #desc {
   font-size: 2rem;
 }
-/* thunder icon not showing up */
+
+/*Thermometer*/
+#temperature {
+  font-size: 7rem;
+}
+#icon-thermometer {
+  font-size: 5rem;
+}
+
+/*weather body section*/
+.humidity,
+.wind,
+.wind-degree {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
